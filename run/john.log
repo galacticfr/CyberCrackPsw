@@ -41735,3 +41735,96 @@
 0:00:00:00 - No word mangling rules
 0:00:00:00 - No stacked rules
 0:00:00:00 Session completed
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1000 password hashes with 1000 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 450 password hashes with 450 different salts
+0:00:00:00 Command line: john --wordlist=pas.txt cp_leak.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: md5crypt, crypt(3) $1$ (and variants) (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Will reject candidates longer than 15 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 2304
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: pas.txt
+0:00:00:00 - memory mapping wordlist (494 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:00:00 + Cracked hnoor
+0:00:00:00 + Cracked nwebster
+0:00:00:00 + Cracked sryder
+0:00:00:00 + Cracked jmarriott
+0:00:00:00 + Cracked gwright
+0:00:00:00 + Cracked gmunoz
+0:00:00:00 + Cracked efleming
+0:00:00:00 + Cracked aforde
+0:00:00:00 + Cracked rpitt
+0:00:00:00 + Cracked mpollard
+0:00:00:00 + Cracked farmstrong
+0:00:00:00 + Cracked nthomson
+0:00:00:00 + Cracked kramos
+0:00:00:00 + Cracked rkatz
+0:00:00:00 + Cracked brobb
+0:00:00:00 + Cracked khatch
+0:00:00:00 + Cracked spack
+0:00:00:00 + Cracked jnolasco
+0:00:00:00 + Cracked rbelanger
+0:00:00:00 + Cracked sbean
+0:00:00:00 + Cracked sjolly
+0:00:00:00 + Cracked cwatson
+0:00:00:00 + Cracked nbridges
+0:00:00:00 + Cracked dconcepcion
+0:00:00:00 + Cracked vjackson
+0:00:00:00 + Cracked kdwyer
+0:00:00:00 + Cracked lbelanger
+0:00:00:00 + Cracked lestes
+0:00:00:00 + Cracked fchristian
+0:00:00:00 + Cracked dfinn
+0:00:00:00 + Cracked jgodinez
+0:00:00:00 + Cracked srex
+0:00:00:00 + Cracked jraza
+0:00:00:00 + Cracked dosorio
+0:00:00:00 + Cracked dmax
+0:00:00:00 + Cracked nriley
+0:00:00:00 + Cracked dharden
+0:00:00:00 + Cracked fzahra
+0:00:00:00 + Cracked mzheng
+0:00:00:00 + Cracked afahad
+0:00:00:00 + Cracked fpatterson
+0:00:00:00 + Cracked lbingham
+0:00:00:00 + Cracked bpepper
+0:00:00:00 + Cracked mfrancis
+0:00:00:00 + Cracked gbolton
+0:00:00:00 + Cracked skakkar
+0:00:00:00 + Cracked damos
+0:00:00:00 + Cracked aboswell
+0:00:00:00 + Cracked ameyer
+0:00:00:00 + Cracked bwade
+0:00:00:00 + Cracked lvance
+0:00:00:00 + Cracked ldaniel
+0:00:00:00 + Cracked tbullock
+0:00:00:00 + Cracked tmichel
+0:00:00:00 + Cracked dwilder
+0:00:00:00 + Cracked efeliciano
+0:00:00:00 + Cracked dherman
+0:00:00:00 + Cracked dewing
+0:00:00:00 + Cracked ndavid
+0:00:00:00 + Cracked esimpson
+0:00:00:00 + Cracked tferrer
+0:00:00:00 + Cracked hmishra
+0:00:00:00 + Cracked wmalik
+0:00:00:00 + Cracked anew
+0:00:00:00 + Cracked ahatcher
+0:00:00:00 + Cracked jnieto
+0:00:00:00 + Cracked cdunn
+0:00:00:00 + Cracked khinkle
+0:00:00:00 + Cracked bdurham
+0:00:00:00 + Cracked pbailey
+0:00:00:00 + Cracked ghorton
+0:00:00:00 + Cracked cjohns
+0:00:00:00 + Cracked rgonzaga
+0:00:00:00 + Cracked jgallo
+0:00:00:00 + Cracked jmagbanua
+0:00:00:00 + Cracked kgomes
+0:00:00:00 Session completed
