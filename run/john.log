@@ -41862,3 +41862,249 @@
 0:00:00:00 - memory mapping wordlist (102971920 bytes)
 0:00:00:00 - No word mangling rules
 0:00:00:00 - No stacked rules
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1000 password hashes with 1000 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 373 password hashes with 373 different salts
+0:00:00:00 Command line: john --incremental --min-length=4 --max-length=4 cp_leak.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: md5crypt, crypt(3) $1$ (and variants) (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Will reject candidates longer than 4 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 2304
+0:00:00:00 Proceeding with "incremental" mode: ASCII
+0:00:00:00 ! MaxLen = 13 is too large for this hash type
+0:00:00:00 - Length 4, up to 95 different characters
+0:00:00:00 - No stacked rules
+0:00:00:00 - Switching to length 4
+0:00:00:00 - Expanding tables for length 4 to character count 1
+0:00:00:00 - Trying length 4, fixed @1, character count 1
+0:00:00:00 - Expanding tables for length 4 to character count 2
+0:00:00:00 - Trying length 4, fixed @2, character count 2
+0:00:00:00 - Trying length 4, fixed @1, character count 2
+0:00:00:00 - Trying length 4, fixed @4, character count 2
+0:00:00:00 - Trying length 4, fixed @3, character count 2
+0:00:00:00 - Expanding tables for length 4 to character count 3
+0:00:00:00 - Trying length 4, fixed @2, character count 3
+0:00:00:00 - Trying length 4, fixed @4, character count 3
+0:00:00:00 - Trying length 4, fixed @1, character count 3
+0:00:00:00 - Trying length 4, fixed @3, character count 3
+0:00:00:00 - Expanding tables for length 4 to character count 4
+0:00:00:00 - Trying length 4, fixed @2, character count 4
+0:00:00:00 - Expanding tables for length 4 to character count 5
+0:00:00:00 - Trying length 4, fixed @2, character count 5
+0:00:00:00 - Trying length 4, fixed @1, character count 4
+0:00:00:00 - Trying length 4, fixed @3, character count 4
+0:00:00:00 - Trying length 4, fixed @1, character count 5
+0:00:00:00 - Trying length 4, fixed @3, character count 5
+0:00:00:00 - Trying length 4, fixed @4, character count 4
+0:00:00:00 - Trying length 4, fixed @4, character count 5
+0:00:00:00 - Expanding tables for length 4 to character count 6
+0:00:00:00 - Trying length 4, fixed @1, character count 6
+0:00:00:00 - Trying length 4, fixed @3, character count 6
+0:00:00:00 - Trying length 4, fixed @2, character count 6
+0:00:00:00 - Trying length 4, fixed @4, character count 6
+0:00:00:00 - Expanding tables for length 4 to character count 7
+0:00:00:00 - Trying length 4, fixed @1, character count 7
+0:00:00:00 - Trying length 4, fixed @3, character count 7
+0:00:00:00 - Trying length 4, fixed @4, character count 7
+0:00:00:00 - Expanding tables for length 4 to character count 8
+0:00:00:00 - Trying length 4, fixed @1, character count 8
+0:00:00:00 - Trying length 4, fixed @3, character count 8
+0:00:00:00 - Trying length 4, fixed @2, character count 7
+0:00:00:00 - Trying length 4, fixed @4, character count 8
+0:00:00:00 - Expanding tables for length 4 to character count 9
+0:00:00:00 - Trying length 4, fixed @3, character count 9
+0:00:00:00 - Trying length 4, fixed @2, character count 8
+0:00:00:01 - Trying length 4, fixed @1, character count 9
+0:00:00:01 - Trying length 4, fixed @4, character count 9
+0:00:00:01 - Expanding tables for length 4 to character count 10
+0:00:00:01 - Trying length 4, fixed @3, character count 10
+0:00:00:01 - Expanding tables for length 4 to character count 11
+0:00:00:01 - Trying length 4, fixed @3, character count 11
+0:00:00:02 - Trying length 4, fixed @2, character count 9
+0:00:00:02 - Trying length 4, fixed @1, character count 10
+0:00:00:02 - Trying length 4, fixed @4, character count 10
+0:00:00:02 - Expanding tables for length 4 to character count 12
+0:00:00:02 - Trying length 4, fixed @3, character count 12
+0:00:00:02 - Trying length 4, fixed @2, character count 10
+0:00:00:03 - Trying length 4, fixed @1, character count 11
+0:00:00:03 - Trying length 4, fixed @4, character count 11
+0:00:00:03 - Expanding tables for length 4 to character count 13
+0:00:00:03 - Trying length 4, fixed @3, character count 13
+0:00:00:03 - Trying length 4, fixed @2, character count 11
+0:00:00:04 - Trying length 4, fixed @1, character count 12
+0:00:00:05 - Trying length 4, fixed @4, character count 12
+0:00:00:05 - Trying length 4, fixed @1, character count 13
+0:00:00:06 - Trying length 4, fixed @2, character count 12
+0:00:00:06 - Trying length 4, fixed @4, character count 13
+0:00:00:07 - Expanding tables for length 4 to character count 14
+0:00:00:07 - Trying length 4, fixed @3, character count 14
+0:00:00:08 - Trying length 4, fixed @1, character count 14
+0:00:00:09 - Expanding tables for length 4 to character count 15
+0:00:00:09 - Trying length 4, fixed @3, character count 15
+0:00:00:10 - Trying length 4, fixed @2, character count 13
+0:00:00:11 - Trying length 4, fixed @4, character count 14
+0:00:00:12 - Trying length 4, fixed @1, character count 15
+0:00:00:13 - Trying length 4, fixed @4, character count 15
+0:00:00:15 - Expanding tables for length 4 to character count 16
+0:00:00:15 - Trying length 4, fixed @3, character count 16
+0:00:00:16 - Trying length 4, fixed @4, character count 16
+0:00:00:17 - Trying length 4, fixed @2, character count 14
+0:00:00:19 - Expanding tables for length 4 to character count 17
+0:00:00:19 - Trying length 4, fixed @3, character count 17
+0:00:00:20 - Trying length 4, fixed @1, character count 16
+0:00:00:22 - Trying length 4, fixed @4, character count 17
+0:00:00:24 - Expanding tables for length 4 to character count 18
+0:00:00:24 - Trying length 4, fixed @3, character count 18
+0:00:00:25 - Trying length 4, fixed @4, character count 18
+0:00:00:27 - Expanding tables for length 4 to character count 19
+0:00:00:27 - Trying length 4, fixed @4, character count 19
+0:00:00:29 - Trying length 4, fixed @2, character count 15
+0:00:00:31 - Trying length 4, fixed @3, character count 19
+0:00:00:33 - Expanding tables for length 4 to character count 20
+0:00:00:33 - Trying length 4, fixed @4, character count 20
+0:00:00:34 - Trying length 4, fixed @2, character count 16
+0:00:00:37 - Trying length 4, fixed @1, character count 17
+0:00:00:39 - Trying length 4, fixed @3, character count 20
+0:00:00:41 - Expanding tables for length 4 to character count 21
+0:00:00:41 - Trying length 4, fixed @4, character count 21
+0:00:00:43 - Trying length 4, fixed @3, character count 21
+0:00:00:46 - Trying length 4, fixed @2, character count 17
+0:00:00:49 - Trying length 4, fixed @1, character count 18
+0:00:00:52 - Expanding tables for length 4 to character count 22
+0:00:00:52 - Trying length 4, fixed @4, character count 22
+0:00:00:56 - Trying length 4, fixed @2, character count 18
+0:00:00:59 - Trying length 4, fixed @1, character count 19
+0:00:01:03 - Trying length 4, fixed @3, character count 22
+0:00:01:06 - Trying length 4, fixed @1, character count 20
+0:00:01:10 - Expanding tables for length 4 to character count 23
+0:00:01:10 - Trying length 4, fixed @3, character count 23
+0:00:01:14 - Trying length 4, fixed @4, character count 23
+0:00:01:17 - Trying length 4, fixed @1, character count 21
+0:00:01:21 - Trying length 4, fixed @1, character count 22
+0:00:01:25 - Expanding tables for length 4 to character count 24
+0:00:01:25 - Trying length 4, fixed @3, character count 24
+0:00:01:29 - Trying length 4, fixed @1, character count 23
+0:00:01:34 - Trying length 4, fixed @4, character count 24
+0:00:01:38 - Trying length 4, fixed @2, character count 19
+0:00:01:44 - Expanding tables for length 4 to character count 25
+0:00:01:44 - Trying length 4, fixed @3, character count 25
+0:00:01:48 - Trying length 4, fixed @1, character count 24
+0:00:01:53 - Expanding tables for length 4 to character count 26
+0:00:01:53 - Trying length 4, fixed @3, character count 26
+0:00:01:58 - Trying length 4, fixed @1, character count 25
+0:00:02:03 - Trying length 4, fixed @1, character count 26
+0:00:02:08 - Expanding tables for length 4 to character count 27
+0:00:02:08 - Trying length 4, fixed @3, character count 27
+0:00:02:13 - Expanding tables for length 4 to character count 28
+0:00:02:13 - Trying length 4, fixed @3, character count 28
+0:00:02:19 - Trying length 4, fixed @2, character count 20
+0:00:02:26 - Trying length 4, fixed @1, character count 27
+0:00:02:32 - Trying length 4, fixed @2, character count 21
+0:00:02:40 - Trying length 4, fixed @4, character count 25
+0:00:02:47 - Trying length 4, fixed @4, character count 26
+0:00:02:54 - Trying length 4, fixed @1, character count 28
+0:00:03:00 - Expanding tables for length 4 to character count 29
+0:00:03:00 - Trying length 4, fixed @3, character count 29
+0:00:03:07 - Expanding tables for length 4 to character count 30
+0:00:03:07 - Trying length 4, fixed @3, character count 30
+0:00:03:14 - Trying length 4, fixed @2, character count 22
+0:00:03:23 - Trying length 4, fixed @4, character count 27
+0:00:03:31 - Trying length 4, fixed @4, character count 28
+0:00:03:39 - Trying length 4, fixed @4, character count 29
+0:00:03:47 - Trying length 4, fixed @1, character count 29
+0:00:03:56 - Trying length 4, fixed @2, character count 23
+0:00:04:07 - Trying length 4, fixed @4, character count 30
+0:00:04:16 - Expanding tables for length 4 to character count 31
+0:00:04:16 - Trying length 4, fixed @3, character count 31
+0:00:04:26 - Expanding tables for length 4 to character count 32
+0:00:04:26 - Trying length 4, fixed @3, character count 32
+0:00:04:34 - Trying length 4, fixed @4, character count 31
+0:00:04:44 - Expanding tables for length 4 to character count 33
+0:00:04:44 - Trying length 4, fixed @3, character count 33
+0:00:04:53 - Trying length 4, fixed @1, character count 30
+0:00:05:03 - Trying length 4, fixed @2, character count 24
+0:00:05:16 - Trying length 4, fixed @1, character count 31
+0:00:05:27 - Trying length 4, fixed @2, character count 25
+0:00:05:39 - Expanding tables for length 4 to character count 34
+0:00:05:39 - Trying length 4, fixed @3, character count 34
+0:00:05:48 - Trying length 4, fixed @4, character count 32
+0:00:05:57 - Trying length 4, fixed @2, character count 26
+0:00:06:12 - Trying length 4, fixed @1, character count 32
+0:00:06:24 - Expanding tables for length 4 to character count 35
+0:00:06:24 - Trying length 4, fixed @3, character count 35
+0:00:06:35 - Trying length 4, fixed @2, character count 27
+0:00:06:49 - Trying length 4, fixed @4, character count 33
+0:00:07:02 - Trying length 4, fixed @1, character count 33
+0:00:07:13 - Trying length 4, fixed @4, character count 34
+0:00:07:25 - Trying length 4, fixed @2, character count 28
+0:00:07:40 - Trying length 4, fixed @1, character count 34
+0:00:07:52 - Trying length 4, fixed @2, character count 29
+0:00:08:08 - Trying length 4, fixed @2, character count 30
+0:00:08:22 - Trying length 4, fixed @2, character count 31
+0:00:08:38 - Trying length 4, fixed @2, character count 32
+0:00:08:53 - Trying length 4, fixed @1, character count 35
+0:00:09:09 - Trying length 4, fixed @2, character count 33
+0:00:09:25 - Trying length 4, fixed @2, character count 34
+0:00:09:41 - Trying length 4, fixed @2, character count 35
+0:00:09:57 - Trying length 4, fixed @4, character count 35
+0:00:10:13 - Expanding tables for length 4 to character count 36
+0:00:10:13 - Trying length 4, fixed @1, character count 36
+0:00:10:28 - Trying length 4, fixed @3, character count 36
+0:00:10:46 - Expanding tables for length 4 to character count 37
+0:00:10:46 - Trying length 4, fixed @1, character count 37
+0:00:11:02 - Trying length 4, fixed @4, character count 36
+0:00:11:20 - Expanding tables for length 4 to character count 38
+0:00:11:20 - Trying length 4, fixed @1, character count 38
+0:00:11:38 - Trying length 4, fixed @2, character count 36
+0:00:11:56 - Expanding tables for length 4 to character count 39
+0:00:11:56 - Trying length 4, fixed @1, character count 39
+0:00:12:13 - Expanding tables for length 4 to character count 40
+0:00:12:13 - Trying length 4, fixed @1, character count 40
+0:00:12:32 - Trying length 4, fixed @4, character count 37
+0:00:12:55 - Expanding tables for length 4 to character count 41
+0:00:12:55 - Trying length 4, fixed @1, character count 41
+0:00:13:15 - Expanding tables for length 4 to character count 42
+0:00:13:15 - Trying length 4, fixed @1, character count 42
+0:00:13:35 - Expanding tables for length 4 to character count 43
+0:00:13:35 - Trying length 4, fixed @1, character count 43
+0:00:29:46 + Cracked mcrosby
+0:00:29:55 - Expanding tables for length 4 to character count 44
+0:00:29:55 - Trying length 4, fixed @1, character count 44
+0:00:30:09 - Expanding tables for length 4 to character count 45
+0:00:30:09 - Trying length 4, fixed @1, character count 45
+0:00:30:24 - Trying length 4, fixed @2, character count 37
+0:00:30:43 - Trying length 4, fixed @3, character count 37
+0:00:31:03 - Trying length 4, fixed @2, character count 38
+0:00:31:24 - Expanding tables for length 4 to character count 46
+0:00:31:24 - Trying length 4, fixed @1, character count 46
+0:00:31:43 - Expanding tables for length 4 to character count 47
+0:00:31:43 - Trying length 4, fixed @1, character count 47
+0:00:32:04 - Expanding tables for length 4 to character count 48
+0:00:32:04 - Trying length 4, fixed @1, character count 48
+0:00:32:26 - Expanding tables for length 4 to character count 49
+0:00:32:26 - Trying length 4, fixed @1, character count 49
+0:00:32:45 - Trying length 4, fixed @3, character count 38
+0:00:32:50 Session aborted
+0:00:32:51 Continuing an interrupted session
+0:00:32:51 Loaded a total of 1000 password hashes with 1000 different salts
+0:00:32:51 Sorting salts, for performance
+0:00:32:51 Remaining 372 password hashes with 372 different salts
+0:00:32:51 Command line: john --restore 
+0:00:32:51 - UTF-8 input encoding enabled
+0:00:32:51 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:32:51 - Hash type: md5crypt, crypt(3) $1$ (and variants) (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:32:51 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:32:51 - Will reject candidates longer than 4 bytes
+0:00:32:51 - Candidate passwords will be buffered and tried in chunks of 2304
+0:00:32:51 Proceeding with "incremental" mode: ASCII
+0:00:32:51 ! MaxLen = 13 is too large for this hash type
+0:00:32:51 - Length 4, up to 95 different characters
+0:00:32:51 - No stacked rules
+0:00:32:51 - Switching to length 4
+0:00:32:51 - Expanding tables for length 4 to character count 49
+0:00:32:51 - Trying length 4, fixed @3, character count 38
+0:00:33:10 - Trying length 4, fixed @3, character count 39
+0:00:33:36 - Trying length 4, fixed @3, character count 40
