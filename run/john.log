@@ -41862,3 +41862,22 @@
 0:00:00:00 - memory mapping wordlist (102971920 bytes)
 0:00:00:00 - No word mangling rules
 0:00:00:00 - No stacked rules
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1000 password hashes with 1000 different salts
+0:00:00:00 Sorting salts, for performance
+0:00:00:00 Remaining 373 password hashes with 373 different salts
+0:00:00:00 Command line: john --wordlist=6num.txt cp_leak.txt 
+0:00:00:00 - UTF-8 input encoding enabled
+0:00:00:00 - Passwords will be stored UTF-8 encoded in .pot file
+0:00:00:00 - Hash type: md5crypt, crypt(3) $1$ (and variants) (min-len 0, max-len 5 [worst case UTF-8] to 15 [ASCII])
+0:00:00:00 - Algorithm: MD5 256/256 AVX2 8x3
+0:00:00:00 - Will reject candidates longer than 15 bytes
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 2304
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: 6num.txt
+0:00:00:00 - memory mapping wordlist (7999998 bytes)
+0:00:00:00 - No word mangling rules
+0:00:00:00 - No stacked rules
+0:00:01:36 + Cracked hevans
+0:00:02:35 + Cracked dsargent
+0:00:06:37 Session completed
